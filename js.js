@@ -3,7 +3,7 @@ let youWin = 0
 let youLost = 0
 
 function playRound(){
-
+  
 let humanChoice = prompt("What do you pick?");
 
 humanChoice = humanChoice.toLowerCase();
@@ -57,4 +57,4 @@ function playGame(){
   }
 }
 
-playGame();
+playGame(); 
